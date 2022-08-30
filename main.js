@@ -131,7 +131,7 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) await loadDatabase()
   console.log(JSON.stringify(update, null, 4))
-  if (update.receivedPendingNotifications) conn.sendMessage(`6285828357727@s.whatsapp.net`, {text: '♨︎𝒷ℴ𝓉 𝓉ℯ𝓁𝒶𝒽 𝒷ℯ𝓇𝒽𝒶𝓈𝒾𝓁 𝓉ℯ𝓇𝒽𝓊𝒷𝓊𝓃𝓰 𝒷𝒶𝓃𝓰 𝔸ℝ𝕀𝔼 𝕋𝕌𝔹𝔼' })
+  if (update.receivedPendingNotifications) conn.sendMessage(`6285713729122@s.whatsapp.net`, {text: '♨︎BOT ON NIH Danzz.Ckf' })
 }
 
 
@@ -167,7 +167,7 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '𝗵𝗮𝗹𝗹𝗼 𝗯𝗼𝘀 @user 👋\n 𝘀𝗲𝗹𝗮𝗺𝗮𝘁 𝗱𝗮𝘁𝗮𝗻𝗴 𝗱𝗶 𝗴𝗿𝘂𝗽 @subject 😅\n 𝗶𝘀𝗶 𝗱𝘂𝗹𝘂 🤗\n\n*Nama:*\n*Umur:*\n*Askot:*\n\n*Deskripsi Grup:*\n\n@desc️' 
+  conn.welcome = '𝗵𝗮𝗹𝗹𝗼 Kak @user 👋\n 𝘀𝗲𝗹𝗮𝗺𝗮𝘁 𝗱𝗮𝘁𝗮𝗻𝗴 𝗱𝗶 𝗴𝗿𝘂𝗽 @subject 😅\n 𝗶𝘀𝗶 𝗱𝘂𝗹𝘂 🤗\n\n*Nama:*\n*Umur:*\n*Askot:*\n\n*Deskripsi Grup:*\n\n@desc️' 
   conn.bye = '𝗯𝘆𝗲 𝗯𝗲𝗯𝗮𝗻 @user 👋'
   conn.spromote = '@user sekarang admin!'
   conn.sdemote = '@user sekarang bukan admin!'
