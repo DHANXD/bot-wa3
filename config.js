@@ -4,7 +4,7 @@ let chalk = require('chalk')
 global.owner = [
   ['6288219947210'],
   ['6288219947210'],
-  ['6288219947210', 'ẉ.ceo @xxyeja ジェー©️', true]
+  ['6288219947210', 'ẉ.ceo @Danzz.Ckf ジェー©️', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -41,7 +41,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = '▶️'
-  var sticker_author = 'ẉ.ceo @xxyeja ジェー©️'
+  var sticker_author = 'ẉ.ceo @Danzz.Ckf ジェー©️'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
